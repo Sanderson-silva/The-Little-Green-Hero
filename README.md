@@ -1,45 +1,57 @@
-# 🌵 O Pequeno Herói Verde
+# 🌵 O Pequeno Herói Verde (The Little Green Hero)
 
-![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Python](http://img.shields.io/static/v1?label=LINGUAGEM&message=PYTHON&color=blue&style=for-the-badge)
+![Status](http://img.shields.io/static/v1?label=ORIGEM&message=TESTE%20TÉCNICO&color=BLUE&style=for-the-badge)
+![Python](http://img.shields.io/static/v1?label=LINGUAGEM&message=PYTHON&color=yellow&style=for-the-badge)
 ![Pygame Zero](http://img.shields.io/static/v1?label=FRAMEWORK&message=PYGAME%20ZERO&color=red&style=for-the-badge)
 
-> **Nota:** Este projeto foi desenvolvido como parte do meu portfólio acadêmico no curso de **Análise e Desenvolvimento de Sistemas (ADS)**. O objetivo principal é aplicar na prática conceitos de Lógica de Programação, Orientação a Objetos e Estrutura de Dados.
-
 ---
 
-## 🎮 Sobre o Projeto
+## 🇧🇷 Português
 
-**O Pequeno Herói Verde** é um jogo de plataforma 2D desenvolvido em Python. O jogador controla um personagem que deve superar desafios de física, evitar inimigos com inteligência de movimento básica e alcançar o objetivo final.
+### 📌 Sobre este Repositório
+Este projeto nasceu originalmente de um **desafio técnico para uma entrevista de emprego**. Embora o objetivo inicial fosse cumprir requisitos de uma avaliação, o resultado final me trouxe muito orgulho pela organização da lógica e pela diversão de ver o projeto ganhando vida.
 
-O projeto não se limita apenas à jogabilidade, mas foca na **arquitetura do código**, demonstrando como gerenciar estados de jogo, colisões e renderização gráfica de forma organizada.
+Decidi mantê-lo no meu GitHub como parte do meu portfólio, pois ele demonstra minha capacidade de entregar soluções funcionais sob demanda, aplicando conceitos sólidos de engenharia de software em um contexto criativo e lúdico.
 
-### ✨ Destaques Técnicos & Funcionalidades
+### ✨ Destaques Técnicos
+* **Orientação a Objetos (POO):** Classes modulares para herói e inimigos, facilitando a manutenção.
+* **Física Manual:** Implementação de gravidade, inércia e pulo sem depender de motores prontos.
+* **Gerenciamento por Matrizes:** Mapas baseados em strings/arrays, permitindo criar novas fases rapidamente.
+* **Máquina de Estados:** Controle centralizado de fluxo (Menu, Gameplay, Vitória e Game Over).
 
-* **Orientação a Objetos (POO):** Utilização de Classes para modularizar o `Heroi` e os `Inimigos`, aplicando conceitos de herança e encapsulamento.
-* **Sistema de Física Customizado:** Implementação manual de gravidade, inércia e pulo, sem depender de motores físicos prontos.
-* **Algoritmo de Colisão:** Lógica matemática para detecção de colisão retangular (Hitboxes) precisa entre o personagem e o cenário.
-* **Gerenciamento de Fases:** Sistema escalável que lê mapas baseados em matrizes de texto (Arrays de Strings), permitindo criar novos níveis facilmente (Fase 1 e Fase 2 já implementadas).
-* **Máquina de Estados:** Controle de fluxo do jogo alternando entre *Menu*, *Gameplay*, *Vitória* e *Game Over*.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
+### 🛠️ Tecnologias Utilizadas
 * **Linguagem:** Python 3.x
-* **Biblioteca Gráfica:** Pygame Zero (pgzero)
-* **IDE/Editor:** VS Code / PyCharm
+* **Biblioteca:** Pygame Zero (pgzero)
+* **Editor:** VS Code
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🇺🇸 English
 
-O código foi organizado visando legibilidade e manutenção:
+### 📌 About this Repository
+This project was originally born as a **technical challenge for a job interview**. Although the initial goal was to fulfill specific evaluation requirements, the final result became a point of personal pride due to the code organization and the joy of seeing the logic come to life.
+
+I decided to keep it in my GitHub portfolio as it demonstrates my ability to deliver functional solutions under demand, applying solid software engineering concepts within a creative context.
+
+### ✨ Technical Highlights
+* **Object-Oriented Programming (OOP):** Modular classes for the hero and enemies.
+* **Custom Physics:** Manual implementation of gravity and inertia without external physics engines.
+* **Matrix-Based Level Design:** Maps generated from string arrays, making it easy to create new levels.
+* **State Machine:** Centralized flow control for Menu, Gameplay, Victory, and Game Over states.
+
+### 🛠️ Technologies Used
+* **Language:** Python 3.x
+* **Library:** Pygame Zero (pgzero)
+* **Editor:** VS Code
+
+---
+
+## 📂 Estrutura / Structure
 
 ```text
 📁 O_Pequeno_Heroi
 │
-├── 📁 images/          # Sprites e assets gráficos
-├── 📁 sounds/          # Efeitos sonoros e música de fundo
-├── 📄 game.py          # Código fonte principal (Lógica do jogo)
-└── 📄 README.md        # Documentação do projeto
+├── 📁 images/          # Assets visuais (Sprites)
+├── 📁 sounds/          # Trilha sonora e efeitos / SFX & Music
+├── 📄 game.py          # Lógica principal / Main game logic
+└── 📄 README.md        # Documentação / Documentation
