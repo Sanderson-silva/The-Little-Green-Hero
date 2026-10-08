@@ -1,5 +1,8 @@
 # 🌵 O Pequeno Herói Verde (The Little Green Hero)
 
+![Demonstração do Gameplay do Jogo](Little%20Green%20Hero%20Gif%2024fps.gif)
+
+
 ![Status](http://img.shields.io/static/v1?label=ORIGEM&message=TESTE%20TÉCNICO&color=BLUE&style=for-the-badge)
 ![Python](http://img.shields.io/static/v1?label=LINGUAGEM&message=PYTHON&color=yellow&style=for-the-badge)
 ![Pygame Zero](http://img.shields.io/static/v1?label=FRAMEWORK&message=PYGAME%20ZERO&color=red&style=for-the-badge)
